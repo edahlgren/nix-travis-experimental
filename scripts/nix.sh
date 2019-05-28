@@ -9,8 +9,3 @@ curl https://nixos.org/nix/install | sh
 # Create a simple shell that includes gcc version 5
 nix run -f channel:nixos-17.09 gcc5
 gcc --version
-exit
-
-# Create another simple shell that includes gcc version 7
-gcc --version
-exit
